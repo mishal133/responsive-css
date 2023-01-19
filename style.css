@@ -195,3 +195,78 @@ header section h1 {
     font-weight: 700;
     font-size: 65px;
 }
+
+.facts {
+    margin-left: 70px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 45px;
+    ;
+}
+
+.facts p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-container div {
+    width: 241px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding-top: 46px;
+    top: 25%;
+    margin-bottom: 200px;
+}
+
+.box-container h4 {
+    font-weight: 600;
+    font-size: 45px;
+}
+
+.box-container p {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
+
+.sponsor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sponsor p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+}
+.logos img{
+    filter: grayscale(1);
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 130px;
+}
+.copyright{
+    width: 1000px;
+    height: 70px;
+    background: #FFF4E7;
+    text-align: center;
+    margin-left: 240px;
+    padding-top: 50px;
+    margin-bottom: 200px;
+    color: #424242;
+}
