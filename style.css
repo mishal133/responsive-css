@@ -3,11 +3,11 @@
 * {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
+
 }
 
 header {
     background-color: #FF900E1A;
-    ;
 }
 
 .menubar {
@@ -108,13 +108,90 @@ header section h1 {
     font-size: 45px;
     color: #FF900E;
 }
-#teampic-text{
+
+#teampic-text {
     margin-left: 76px;
 }
-#teampic-text h2{
+
+#teampic-text h2 {
     margin-bottom: 24px;
 }
-#teampic-text p{
+
+#teampic-text p {
     margin-bottom: 32px;
     color: #727272;
+}
+
+#feature-p {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+}
+
+.middle2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#ftr {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 24px;
+}
+
+.box {
+    padding: 30px;
+    box-shadow: 0px 4px 20px 0px grey;
+    border: 0;
+    border-radius: 8px;
+    width: 586px;
+    margin-bottom: 20px;
+    margin-right: 54px;
+}
+
+.box h5 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.box p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.architect-image {
+    margin-top: 130px;
+    width: 800px;
+}
+
+.architect-image img {
+    position: relative;
+    width: 80%;
+    right: 0;
+    top: 0;
+    padding-left: 50px;
+}
+
+#architect-button {
+    width: 342px;
+    height: 200px;
+    position: relative;
+    bottom: 100px;
+    left: 0;
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+#years {
+    font-weight: 700;
+    font-size: 65px;
 }
